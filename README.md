@@ -326,9 +326,7 @@ django-cors-headers==4.3
 ## Project Structure
 
 ```
-chamaconnect-fix/
-├── README.md
-├── requirements.txt
+backend/
 ├── manage.py
 ├── screenshots/
 │   ├── bug01-no-expiry-jwt.png
@@ -336,7 +334,7 @@ chamaconnect-fix/
 │   ├── bug03-dashboard-no-cookie.png
 │   ├── bug04-otp-in-localstorage.png
 │   └── bug05-full-state-dump.png
-├── core/
+├── backend/
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
@@ -345,6 +343,8 @@ chamaconnect-fix/
     ├── serializers.py  — input validation + safe output shaping
     ├── views.py        — endpoint logic with inline bug-fix comments
     └── urls.py         — route definitions
+README.md/
+requirements.txt/
 ```
 
 ---
