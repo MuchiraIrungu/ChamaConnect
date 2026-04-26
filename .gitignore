@@ -1,0 +1,22 @@
+# Virtual environment
+chama_env/
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Environment variables — never commit secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
